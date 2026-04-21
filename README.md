@@ -1,1 +1,16 @@
 # CS-305-Software-Security
+
+
+Artemis Financial is a consulting company that develops individualized financial plans for its customers, including services related to savings, retirement, investments, and insurance. The company wanted to modernize its software while improving its overall security. Specifically, the issue that needed to be addressed was the lack of secure communication and data verification within its web application. The goal was to implement encryption and checksum verification to ensure that sensitive financial data could be transmitted securely and protected from tampering.
+
+When identifying the client’s software security vulnerabilities, I did well in recognizing areas where security improvements were needed, such as the absence of HTTPS and the lack of data integrity verification. By implementing a SHA-256 hashing algorithm and configuring HTTPS with a self-signed certificate, I was able to strengthen the application’s security. Coding securely is important because it helps prevent data breaches, protects user information, and reduces the risk of cyberattacks. Software security adds value to a company’s overall well-being by maintaining customer trust, protecting sensitive data, and ensuring compliance with security standards.
+
+One of the more challenging parts of the vulnerability assessment process was running and troubleshooting the OWASP Dependency-Check tool. It required resolving errors related to outdated plugins and data updates. However, this process was also helpful because it demonstrated how to identify known vulnerabilities in third-party dependencies and reinforced the importance of maintaining up-to-date and secure libraries.
+
+I increased layers of security by implementing HTTPS for encrypted communication, adding SHA-256 hashing for data integrity, and performing static analysis using dependency-check. In the future, I would continue to use tools such as OWASP Dependency-Check, along with other static and dynamic analysis tools, to assess vulnerabilities and determine appropriate mitigation strategies. I would also follow secure coding guidelines and regularly update dependencies to reduce risks.
+
+To ensure that the code and application were both functional and secure, I conducted functional testing by running the application and verifying that all features worked as expected. I also performed static testing using dependency-check to confirm that no new vulnerabilities were introduced during refactoring. After making changes, I verified that the application executed without errors and that secure communication and checksum functionality worked correctly.
+
+The resources and tools used in this project, including Java keytool, HTTPS configuration, SHA-256 hashing, and OWASP Dependency-Check, will be valuable in future assignments and professional work. These tools provide practical experience in implementing real-world security measures and evaluating software vulnerabilities.
+
+For future employers, I could present this project as an example of my ability to identify security risks, implement secure coding practices, and use industry-standard tools to enhance application security. This assignment demonstrates my understanding of secure software development, vulnerability assessment, and my ability to troubleshoot and resolve complex technical issues.
